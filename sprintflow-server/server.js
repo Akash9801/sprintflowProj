@@ -23,7 +23,7 @@ app.use(helmet())
 
 // ─── CORS ─────────────────────────────────────────────────────────────────────
 const allowedOrigins = [
-  process.env.CLIENT_URL,
+  process.env.sprintflow-proj.vercel.app,
   'http://localhost:3000',
   'http://localhost:5173', // Vite default dev port
 ].filter(Boolean)
