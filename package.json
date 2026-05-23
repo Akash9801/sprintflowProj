@@ -1,0 +1,11 @@
+{
+  "name": "sprintflow-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix sprintflow",
+    "start": "npm start --prefix sprintflow-server",
+    "dev:frontend": "npm run dev --prefix sprintflow",
+    "dev:backend": "npm run dev --prefix sprintflow-server"
+  }
+}
