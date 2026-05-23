@@ -96,11 +96,6 @@ export default function Login() {
             Sign in to your account to continue.
           </p>
 
-          {/* Demo hint */}
-          <div className="bg-brand-50 border border-brand-200 rounded-xl px-4 py-3 mb-6">
-            <p className="text-xs text-brand-700 font-medium mb-0.5">Demo mode</p>
-            <p className="text-xs text-brand-600">Enter any email and password to sign in.</p>
-          </div>
 
           {error && (
             <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3 mb-5 text-sm text-red-600 animate-fade-in">
