@@ -11,7 +11,7 @@ const links = {
     { label: 'About', href: '#about' },
     { label: 'Blog', href: '#' },
     { label: 'Careers', href: '#' },
-    { label: 'Contact', href: '#' },
+    { label: 'Contact', href: "mailto:aakashkumarkeshri4@gmail.com"},
   ],
   Legal: [
     { label: 'Privacy Policy', href: '#' },
@@ -42,7 +42,7 @@ export default function Footer() {
             {/* Social links */}
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/Akash9801"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-surface-800 hover:bg-surface-700 flex items-center justify-center transition-colors"
@@ -53,7 +53,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/akashkumarkeshri/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-surface-800 hover:bg-surface-700 flex items-center justify-center transition-colors"
@@ -64,7 +64,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="mailto:hello@sprintflow.dev"
+                href="mailto:aakashkumarkeshri4@gmail.com"
                 className="w-8 h-8 rounded-lg bg-surface-800 hover:bg-surface-700 flex items-center justify-center transition-colors"
                 aria-label="Email"
               >
