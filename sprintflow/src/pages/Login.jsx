@@ -38,14 +38,14 @@ export default function Login() {
         <div className="absolute -bottom-32 -left-16 w-80 h-80 rounded-full bg-brand-500/10 blur-3xl" />
 
         {/* Logo */}
-        <div className="flex items-center gap-3 relative z-10">
+        <Link to="/" className="flex items-center gap-3 relative z-10 w-fit">
           <div className="w-9 h-9 rounded-xl bg-brand-600 flex items-center justify-center">
             <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           </div>
           <span className="text-white font-bold text-lg">SprintFlow</span>
-        </div>
+        </Link>
 
         {/* Tagline */}
         <div className="relative z-10">
@@ -82,20 +82,19 @@ export default function Login() {
       <div className="flex-1 flex items-center justify-center p-6">
         <div className="w-full max-w-sm">
           {/* Mobile logo */}
-          <div className="flex items-center gap-2 mb-8 lg:hidden">
+          <Link to="/" className="flex items-center gap-2 mb-8 lg:hidden w-fit">
             <div className="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center">
               <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
             <span className="font-bold text-surface-900">SprintFlow</span>
-          </div>
+          </Link>
 
           <h1 className="text-2xl font-bold text-surface-900 mb-1">Welcome back</h1>
           <p className="text-sm text-surface-500 mb-8">
             Sign in to your account to continue.
           </p>
-
 
           {error && (
             <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3 mb-5 text-sm text-red-600 animate-fade-in">

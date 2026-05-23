@@ -7,10 +7,14 @@ import ProjectDetails from './pages/ProjectDetails'
 import NotFound from './pages/NotFound'
 import ProtectedRoute from './routes/ProtectedRoute'
 import Layout from './components/layout/Layout'
+import Landing from './pages/Landing'
 
 export default function App() {
   return (
     <Routes>
+
+      <Route path="/" element={<Landing />} />
+
       {/* Public Routes */}
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
